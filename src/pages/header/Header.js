@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand to="/">
+          <Navbar.Brand as={Link} to="/">
             <strong>Employee Management System</strong>
           </Navbar.Brand>
           <Nav className="ml-auto">
